@@ -26,12 +26,12 @@ const governadorPE = new Governador(
 );
 
 const governadorBA = new Governador(
-    "Jerônimo Rodrigues",
+    "Rui Costa",
     "PT",
-    "Centro Administrativo da Bahia",
-    "3ª Avenida, Salvador - BA",
-    35000,
-    25,
+    "Poder Executivo da Bahia",
+    "Metrô de Salvador, Salvador - BA",
+    23516,
+    23,
     "Bahia"
 );
 

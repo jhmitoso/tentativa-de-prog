@@ -31,8 +31,8 @@ const governadorBA = new Governador(
     "Poder Executivo da Bahia",
     "Metrô de Salvador, Salvador - BA",
     23516,
-    23,
-    "Bahia"
+    24,
+    "Bahia"          
 );
 
 const deputadoFederalPE1 = new DeputadoFederal(
@@ -188,6 +188,8 @@ deputadoEstadualBA2.adicionarComissao(comissao4);
 
 console.log("Presidente");
 
+console.log("______________________________________")
+
 console.log(presidente.getNome());
 console.log(presidente.getPartido());
 console.log(presidente.getEsfera());
@@ -203,6 +205,8 @@ console.log(presidente.elaborarLDO());
 console.log(presidente.elaborarLOA());
 
 console.log("Governadores");
+
+console.log("______________________________________")
 
 console.log(governadorPE.getNome());
 console.log(governadorPE.getEstado());
@@ -223,6 +227,8 @@ console.log(governadorBA.getPartido());
 console.log(governadorBA.exercerMandato());
 
 console.log("Deputados Federais");
+
+console.log("______________________________________")
 
 console.log(deputadoFederalPE1.getNome());
 console.log(deputadoFederalPE1.getBancada());
@@ -245,6 +251,8 @@ console.log(deputadoFederalBA2.getBancada());
 
 console.log("Deputados Estaduais");
 
+console.log("______________________________________")
+
 console.log(deputadoEstadualPE1.getNome());
 console.log(deputadoEstadualPE1.getEstado());
 console.log(deputadoEstadualPE1.exercerMandato());
@@ -265,6 +273,8 @@ console.log(deputadoEstadualBA2.getEstado());
 
 console.log("Senadores");
 
+console.log("______________________________________")
+
 console.log(senadorPE1.getNome());
 console.log(senadorPE1.getEstado());
 console.log(senadorPE1.getAnoEleicao());
@@ -283,12 +293,16 @@ console.log(senadorBA.getAnoEleicao());
 
 console.log("Projetos");
 
+console.log("______________________________________")
+
 console.log(projeto1.getTitulo());
 console.log(projeto2.getTitulo());
 console.log(projeto3.getTitulo());
 console.log(projeto4.getTitulo());
 
 console.log("Comissões");
+
+console.log("______________________________________")
 
 console.log(comissao1.getNome());
 console.log(comissao2.getNome());
